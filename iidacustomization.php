@@ -153,3 +153,18 @@ function iidacustomization_civicrm_navigationMenu(&$menu) {
   ));
   _iidacustomization_civix_navigationMenu($menu);
 } // */
+
+/**
+ * Implements hook_civicrm_alterSettingsFolders().
+ *
+ */
+function iidacustomization_civicrm_preCloseAccountingPeriod(&$params) {
+  if (!empty($params['contact_id'])) {
+    $query = "UPDATE civicrm_financial_accounts_balance fab
+        INNER JOIN civicrm_financial_account fa ON fab.financial_account_id = fa.id
+      SET fab.current_period_opening_balance = 0
+      WHERE fa.contact_id = %1";
+    $queryParams = array(1 => array($params['contact_id'], 'Integer'));
+    CRM_Core_DAO::executeQuery($query, $queryParams);
+  }
+}
