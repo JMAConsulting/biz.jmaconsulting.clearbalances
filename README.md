@@ -1,3 +1,3 @@
-# biz.jmaconsulting.iidacustomization
+# biz.jmaconsulting.clearbalances
 
-This extension holds customization for IIDA Accrual Accounting Integration.
+This extension clears financial account balances when closing an account period.

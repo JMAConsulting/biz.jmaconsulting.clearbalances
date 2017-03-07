@@ -1,14 +1,14 @@
 <?php
 
-require_once 'iidacustomization.civix.php';
+require_once 'clearbalances.civix.php';
 
 /**
  * Implements hook_civicrm_config().
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_config
  */
-function iidacustomization_civicrm_config(&$config) {
-  _iidacustomization_civix_civicrm_config($config);
+function clearbalances_civicrm_config(&$config) {
+  _clearbalances_civix_civicrm_config($config);
 }
 
 /**
@@ -18,8 +18,8 @@ function iidacustomization_civicrm_config(&$config) {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_xmlMenu
  */
-function iidacustomization_civicrm_xmlMenu(&$files) {
-  _iidacustomization_civix_civicrm_xmlMenu($files);
+function clearbalances_civicrm_xmlMenu(&$files) {
+  _clearbalances_civix_civicrm_xmlMenu($files);
 }
 
 /**
@@ -27,8 +27,8 @@ function iidacustomization_civicrm_xmlMenu(&$files) {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_install
  */
-function iidacustomization_civicrm_install() {
-  _iidacustomization_civix_civicrm_install();
+function clearbalances_civicrm_install() {
+  _clearbalances_civix_civicrm_install();
 }
 
 /**
@@ -36,8 +36,8 @@ function iidacustomization_civicrm_install() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_uninstall
  */
-function iidacustomization_civicrm_uninstall() {
-  _iidacustomization_civix_civicrm_uninstall();
+function clearbalances_civicrm_uninstall() {
+  _clearbalances_civix_civicrm_uninstall();
 }
 
 /**
@@ -45,8 +45,8 @@ function iidacustomization_civicrm_uninstall() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_enable
  */
-function iidacustomization_civicrm_enable() {
-  _iidacustomization_civix_civicrm_enable();
+function clearbalances_civicrm_enable() {
+  _clearbalances_civix_civicrm_enable();
 }
 
 /**
@@ -54,8 +54,8 @@ function iidacustomization_civicrm_enable() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_disable
  */
-function iidacustomization_civicrm_disable() {
-  _iidacustomization_civix_civicrm_disable();
+function clearbalances_civicrm_disable() {
+  _clearbalances_civix_civicrm_disable();
 }
 
 /**
@@ -70,8 +70,8 @@ function iidacustomization_civicrm_disable() {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_upgrade
  */
-function iidacustomization_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
-  return _iidacustomization_civix_civicrm_upgrade($op, $queue);
+function clearbalances_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
+  return _clearbalances_civix_civicrm_upgrade($op, $queue);
 }
 
 /**
@@ -82,8 +82,8 @@ function iidacustomization_civicrm_upgrade($op, CRM_Queue_Queue $queue = NULL) {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_managed
  */
-function iidacustomization_civicrm_managed(&$entities) {
-  _iidacustomization_civix_civicrm_managed($entities);
+function clearbalances_civicrm_managed(&$entities) {
+  _clearbalances_civix_civicrm_managed($entities);
 }
 
 /**
@@ -97,8 +97,8 @@ function iidacustomization_civicrm_managed(&$entities) {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_caseTypes
  */
-function iidacustomization_civicrm_caseTypes(&$caseTypes) {
-  _iidacustomization_civix_civicrm_caseTypes($caseTypes);
+function clearbalances_civicrm_caseTypes(&$caseTypes) {
+  _clearbalances_civix_civicrm_caseTypes($caseTypes);
 }
 
 /**
@@ -111,8 +111,8 @@ function iidacustomization_civicrm_caseTypes(&$caseTypes) {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_caseTypes
  */
-function iidacustomization_civicrm_angularModules(&$angularModules) {
-_iidacustomization_civix_civicrm_angularModules($angularModules);
+function clearbalances_civicrm_angularModules(&$angularModules) {
+_clearbalances_civix_civicrm_angularModules($angularModules);
 }
 
 /**
@@ -120,8 +120,8 @@ _iidacustomization_civix_civicrm_angularModules($angularModules);
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_alterSettingsFolders
  */
-function iidacustomization_civicrm_alterSettingsFolders(&$metaDataFolders = NULL) {
-  _iidacustomization_civix_civicrm_alterSettingsFolders($metaDataFolders);
+function clearbalances_civicrm_alterSettingsFolders(&$metaDataFolders = NULL) {
+  _clearbalances_civix_civicrm_alterSettingsFolders($metaDataFolders);
 }
 
 /**
@@ -133,7 +133,7 @@ function iidacustomization_civicrm_alterSettingsFolders(&$metaDataFolders = NULL
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_preProcess
  *
-function iidacustomization_civicrm_preProcess($formName, &$form) {
+function clearbalances_civicrm_preProcess($formName, &$form) {
 
 } // */
 
@@ -142,23 +142,23 @@ function iidacustomization_civicrm_preProcess($formName, &$form) {
  *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_navigationMenu
  *
-function iidacustomization_civicrm_navigationMenu(&$menu) {
-  _iidacustomization_civix_insert_navigation_menu($menu, NULL, array(
-    'label' => ts('The Page', array('domain' => 'biz.jmaconsulting.iidacustomization')),
+function clearbalances_civicrm_navigationMenu(&$menu) {
+  _clearbalances_civix_insert_navigation_menu($menu, NULL, array(
+    'label' => ts('The Page', array('domain' => 'biz.jmaconsulting.clearbalances')),
     'name' => 'the_page',
     'url' => 'civicrm/the-page',
     'permission' => 'access CiviReport,access CiviContribute',
     'operator' => 'OR',
     'separator' => 0,
   ));
-  _iidacustomization_civix_navigationMenu($menu);
+  _clearbalances_civix_navigationMenu($menu);
 } // */
 
 /**
  * Implements hook_civicrm_alterSettingsFolders().
  *
  */
-function iidacustomization_civicrm_preCloseAccountingPeriod(&$params) {
+function clearbalances_civicrm_preCloseAccountingPeriod(&$params) {
   if (!empty($params['contact_id'])) {
     $query = "UPDATE civicrm_financial_accounts_balance fab
         INNER JOIN civicrm_financial_account fa ON fab.financial_account_id = fa.id

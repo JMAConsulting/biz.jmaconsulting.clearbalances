@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<extension key="biz.jmaconsulting.iidacustomization" type="module">
-  <file>iidacustomization</file>
-  <name>IIDA Customization</name>
-  <description>This extension holds customization for IIDA Accrual Accounting Integration.</description>
+<extension key="biz.jmaconsulting.clearbalances" type="module">
+  <file>clearbalances</file>
+  <name>Clear Financial Account Balances when Closing Period</name>
+  <description>This extension sets all account balances to zero when closing an accounting period.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>JMA Consulting</author>
     <email>joe.murray@jmaconsulting.biz</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">https://github.com/JMAConsulting/biz.jmaconsulting.iidacustomization/blob/master/</url>
-    <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.iidacustomization/blob/master/README.md</url>
-    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.iidacustomization/issues</url>
+    <url desc="Main Extension Page">https://github.com/JMAConsulting/biz.jmaconsulting.clearbalances/blob/master/</url>
+    <url desc="Documentation">https://github.com/JMAConsulting/biz.jmaconsulting.clearbalances/blob/master/README.md</url>
+    <url desc="Support">https://github.com/JMAConsulting/biz.jmaconsulting.clearbalances/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2017-03-05</releaseDate>
@@ -22,6 +22,6 @@
   </compatibility>
   <comments>This is a new, undeveloped module</comments>
   <civix>
-    <namespace>CRM/Iidacustomization</namespace>
+    <namespace>CRM/ClearBalances</namespace>
   </civix>
 </extension>

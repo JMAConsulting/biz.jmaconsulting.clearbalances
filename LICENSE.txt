@@ -1,4 +1,4 @@
-Package: biz.jmaconsulting.iidacustomization
+Package: biz.jmaconsulting.clearbalances
 Copyright (C) 2017, Pradeep Nayak <pradpnayak@gmail.com>
 Licensed under the GNU Affero Public License 3.0 (below).
 
